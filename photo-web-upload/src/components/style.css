@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    margin: 5px;
+    color: white;
+    width: 19%;
+    border-radius: 10px;
+}
+
+.tile-container>* {
+    margin: 2%;
+}
+
+.dialog-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.dialog-container>* {
+    margin: 5px;
+}
+
+.controls-button {
+    margin: 5px;
+}
